@@ -1,0 +1,6 @@
+import nltk
+nltk.download('punkt')
+
+text = "Advanced Artificial Intelligence and Machine Learning"
+tokens = nltk.word_tokenize(text)
+print("Tokens:", tokens)
