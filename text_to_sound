@@ -1,0 +1,5 @@
+import pyttsx3
+
+engine = pyttsx3.init()
+engine.say("Hello, This code is for Advanced Artificial Intelliegnce and Machine Learning")
+engine.runAndWait()
